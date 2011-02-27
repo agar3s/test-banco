@@ -39,3 +39,22 @@ perform tests
 controller all --package ~.web
 backup
 // Spring Roo 1.1.1.RELEASE [rev 156ccd6] log closed at 2011-02-27 14:18:07
+hint
+hint topics
+database properties list
+database properties set --key database.url --value jdbc:postgresql://localhost:5432/test-banco
+web mvc install language es
+hint
+perform package
+field set --class ~.logica.Cliente --fieldName cuentas --type ~.logica.Cuenta
+field set --class ~.logica.Cuenta --fieldName cuentas --type ~.logica.Movimiento
+perform package
+perform package
+// [failed] field set --class ~.logica.Cuenta --fieldName cuentas --type ~.logica.Movimiento --mappedBy cuenta
+field set --class ~.logica.Cuenta --fieldName movimientos --type ~.logica.Movimiento --mappedBy cuenta
+field set --class ~.logica.Cliente --fieldName cuentas --type ~.logica.Cuenta --mappedBy cliente --cardinality ONE_TO_MANY 
+perform package
+perform package
+perform package
+field reference --fieldName cliente --type ~.logica.Cliente
+perform package

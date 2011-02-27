@@ -23,7 +23,11 @@ privileged aspect CuentaDataOnDemand_Roo_DataOnDemand {
     
     public Cuenta CuentaDataOnDemand.getNewTransientCuenta(int index) {
         com.pagosonline.logica.Cuenta obj = new com.pagosonline.logica.Cuenta();
-        obj.setNumeroCuenta(new Integer(index).longValue());
+        java.lang.Long numeroCuenta = new Integer(index).longValue();
+        if (numeroCuenta < 3) {
+            numeroCuenta = 3L;
+        }
+        obj.setNumeroCuenta(numeroCuenta);
         java.lang.Long saldo = new Integer(index).longValue();
         if (saldo < 0) {
             saldo = 0L;

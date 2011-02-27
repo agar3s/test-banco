@@ -11,8 +11,8 @@ privileged aspect Movimiento_Roo_ToString {
         StringBuilder sb = new StringBuilder();
         sb.append("Valor: ").append(getValor()).append(", ");
         sb.append("Tipo: ").append(getTipo()).append(", ");
-        sb.append("Fecha: ").append(getFecha()).append(", ");
-        sb.append("Cuenta: ").append(getCuenta());
+        sb.append("Cuenta: ").append(getCuenta()).append(", ");
+        sb.append("Fecha: ").append(getFecha());
         return sb.toString();
     }
     

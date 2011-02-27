@@ -4,7 +4,9 @@
 package com.pagosonline.logica;
 
 import com.pagosonline.logica.Cliente;
+import com.pagosonline.logica.Movimiento;
 import java.lang.Long;
+import java.util.Set;
 
 privileged aspect Cuenta_Roo_JavaBean {
     
@@ -30,6 +32,14 @@ privileged aspect Cuenta_Roo_JavaBean {
     
     public void Cuenta.setCliente(Cliente cliente) {
         this.cliente = cliente;
+    }
+    
+    public Set<Movimiento> Cuenta.getMovimientos() {
+        return this.movimientos;
+    }
+    
+    public void Cuenta.setMovimientos(Set<Movimiento> movimientos) {
+        this.movimientos = movimientos;
     }
     
 }

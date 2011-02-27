@@ -26,20 +26,20 @@ privileged aspect Movimiento_Roo_JavaBean {
         this.tipo = tipo;
     }
     
-    public Date Movimiento.getFecha() {
-        return this.fecha;
-    }
-    
-    public void Movimiento.setFecha(Date fecha) {
-        this.fecha = fecha;
-    }
-    
     public Cuenta Movimiento.getCuenta() {
         return this.cuenta;
     }
     
     public void Movimiento.setCuenta(Cuenta cuenta) {
         this.cuenta = cuenta;
+    }
+    
+    public Date Movimiento.getFecha() {
+        return this.fecha;
+    }
+    
+    public void Movimiento.setFecha(Date fecha) {
+        this.fecha = fecha;
     }
     
 }

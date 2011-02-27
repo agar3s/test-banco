@@ -11,7 +11,8 @@ privileged aspect Cuenta_Roo_ToString {
         StringBuilder sb = new StringBuilder();
         sb.append("NumeroCuenta: ").append(getNumeroCuenta()).append(", ");
         sb.append("Saldo: ").append(getSaldo()).append(", ");
-        sb.append("Cliente: ").append(getCliente());
+        sb.append("Cliente: ").append(getCliente()).append(", ");
+        sb.append("Movimientos: ").append(getMovimientos() == null ? "null" : getMovimientos().size());
         return sb.toString();
     }
     

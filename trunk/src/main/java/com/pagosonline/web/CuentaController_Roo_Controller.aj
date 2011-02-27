@@ -5,6 +5,7 @@ package com.pagosonline.web;
 
 import com.pagosonline.logica.Cliente;
 import com.pagosonline.logica.Cuenta;
+import com.pagosonline.logica.Movimiento;
 import java.io.UnsupportedEncodingException;
 import java.lang.Integer;
 import java.lang.Long;
@@ -94,6 +95,11 @@ privileged aspect CuentaController_Roo_Controller {
     @ModelAttribute("clientes")
     public Collection<Cliente> CuentaController.populateClientes() {
         return Cliente.findAllClientes();
+    }
+    
+    @ModelAttribute("movimientoes")
+    public Collection<Movimiento> CuentaController.populateMovimientoes() {
+        return Movimiento.findAllMovimientoes();
     }
     
     String CuentaController.encodeUrlPathSegment(String pathSegment, HttpServletRequest request) {
