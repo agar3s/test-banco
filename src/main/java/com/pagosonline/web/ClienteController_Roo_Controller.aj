@@ -4,14 +4,17 @@
 package com.pagosonline.web;
 
 import com.pagosonline.logica.Cliente;
+import com.pagosonline.logica.Cuenta;
 import java.io.UnsupportedEncodingException;
 import java.lang.Integer;
 import java.lang.Long;
 import java.lang.String;
+import java.util.Collection;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -79,6 +82,11 @@ privileged aspect ClienteController_Roo_Controller {
         model.addAttribute("page", (page == null) ? "1" : page.toString());
         model.addAttribute("size", (size == null) ? "10" : size.toString());
         return "redirect:/clientes?page=" + ((page == null) ? "1" : page.toString()) + "&size=" + ((size == null) ? "10" : size.toString());
+    }
+    
+    @ModelAttribute("cuentas")
+    public Collection<Cuenta> ClienteController.populateCuentas() {
+        return Cuenta.findAllCuentas();
     }
     
     String ClienteController.encodeUrlPathSegment(String pathSegment, HttpServletRequest request) {

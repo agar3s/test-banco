@@ -11,7 +11,8 @@ privileged aspect Cliente_Roo_ToString {
         StringBuilder sb = new StringBuilder();
         sb.append("Nombre: ").append(getNombre()).append(", ");
         sb.append("Direccion: ").append(getDireccion()).append(", ");
-        sb.append("Telefono: ").append(getTelefono());
+        sb.append("Telefono: ").append(getTelefono()).append(", ");
+        sb.append("Cuentas: ").append(getCuentas() == null ? "null" : getCuentas().size());
         return sb.toString();
     }
     

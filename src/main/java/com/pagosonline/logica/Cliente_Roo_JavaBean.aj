@@ -3,7 +3,9 @@
 
 package com.pagosonline.logica;
 
+import com.pagosonline.logica.Cuenta;
 import java.lang.String;
+import java.util.Set;
 
 privileged aspect Cliente_Roo_JavaBean {
     
@@ -29,6 +31,14 @@ privileged aspect Cliente_Roo_JavaBean {
     
     public void Cliente.setTelefono(String telefono) {
         this.telefono = telefono;
+    }
+    
+    public Set<Cuenta> Cliente.getCuentas() {
+        return this.cuentas;
+    }
+    
+    public void Cliente.setCuentas(Set<Cuenta> cuentas) {
+        this.cuentas = cuentas;
     }
     
 }

@@ -7,6 +7,11 @@ import com.pagosonline.logica.TipoMovimiento;
 import javax.validation.constraints.NotNull;
 import javax.persistence.Enumerated;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.OneToMany;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -23,13 +28,15 @@ public class Movimiento {
     @NotNull
     @Enumerated
     private TipoMovimiento tipo;
+    
+    @NotNull
+    @ManyToOne
+    private Cuenta cuenta;
 
     @NotNull
     @Temporal(TemporalType.TIMESTAMP)
     @DateTimeFormat(style = "S-")
     private Date fecha;
-
-    @NotNull
-    @ManyToOne
-    private Cuenta cuenta;
+    
+    
 }
