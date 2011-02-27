@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_pagosonline_logica_Movimiento" object="${movimiento}" path="/movimientoes" z="1mk24TlQ4+pQWGA+L3nS0M8XhkI=">
+        <field:display field="valor" id="s_com_pagosonline_logica_Movimiento_valor" object="${movimiento}" z="Ducon4PXcZr99ep9yhkdHSkW3V8="/>
+        <field:display field="tipo" id="s_com_pagosonline_logica_Movimiento_tipo" object="${movimiento}" z="szkwXQUiDY7ZagMTBYPjdxoSZQA="/>
+        <field:display date="true" dateTimePattern="${movimiento_fecha_date_format}" field="fecha" id="s_com_pagosonline_logica_Movimiento_fecha" object="${movimiento}" z="NqUjBEpv4JHnhQ3NuJ+Vv0lt9QA="/>
+        <field:display field="cuenta" id="s_com_pagosonline_logica_Movimiento_cuenta" object="${movimiento}" z="wKWgTxC/t0CuCluaAAR/kFPB9eM="/>
+    </page:show>
+</div>

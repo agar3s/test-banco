@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_pagosonline_logica_Cuenta" items="${cuentas}" z="5YvIkgyaSyJkKJDzCOwpV9JIQFw=">
+        <table:table data="${cuentas}" id="l_com_pagosonline_logica_Cuenta" path="/cuentas" z="VcDq5kbiQfUOhtIpcG9anFbBWBU=">
+            <table:column id="c_com_pagosonline_logica_Cuenta_numeroCuenta" property="numeroCuenta" z="DDidw6LHew49/mgea604xTDCZTo="/>
+            <table:column id="c_com_pagosonline_logica_Cuenta_saldo" property="saldo" z="aU231NPNDfbXTDmGX31zt/K5ntw="/>
+            <table:column id="c_com_pagosonline_logica_Cuenta_cliente" property="cliente" z="jycd853A1Az6thXmm4q2bg0acn4="/>
+        </table:table>
+    </page:list>
+</div>

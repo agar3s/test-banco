@@ -1,7 +1,41 @@
 // Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-02-27 00:23:44
 hint
-project --topLevelPackage com.pagosonline.logica
+project --topLevelPackage com.pagosonline
 hint
 persistence setup --provider HIBERNATE --database POSTGRES 
 exit
 // Spring Roo 1.1.1.RELEASE [rev 156ccd6] log closed at 2011-02-27 00:25:25
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-02-27 12:25:22
+hint
+hint help
+help
+hint project
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-02-27 12:37:01
+entity --class ~.logica.Cliente --testAutomatically 
+entity --class ~.logica.Cuenta --testAutomatically 
+entity --class ~.logica.Movimiento --testAutomatically 
+hint
+// [failed] entity --class ~.logica.Cliente
+field string --fieldName nombre --notNull --sizeMin 3
+field string --fieldName direccion --notNull --sizeMin 8
+field string --fieldName telefono --sizeMin 7
+// [failed] field reference --fieldName cuentas --type ~.logica.Cuenta --cardinality ONE_TO_MANY 
+field reference --fieldName cuentas --type ~.logica.Cuenta --cardinality
+field number --fieldName numeroCuenta --type java.Long --class ~.logica.Cuenta
+field number --fieldName saldo --type java.Long --class ~.logica.Cuenta --min 0
+field number --fieldName valor --type java.Long --class ~.logica.Movimiento
+enum type --class ~.logica.TipoMovimiento
+enum constant --name DEBITO
+enum constant --name CREDITO
+field enum --fieldName tipo --type ~.logica.TipoMovimiento --class ~.logica.Movimiento --notNull 
+field date --type java.util.Date --fieldName fecha --notNull 
+field reference --fieldName cuenta --type ~.logica.Cuenta --cardinality MANY_TO_ONE 
+field reference --fieldName cliente --type ~.logica.Cliente --class ~.logica.Cuenta --cardinality MANY_TO_ONE 
+hint
+hint finders
+perform tests
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-02-27 13:18:30
+perform tests
+controller all --package ~.web
+backup
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log closed at 2011-02-27 14:18:07
