@@ -3,12 +3,12 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_pagosonline_logica_Cuenta" modelAttribute="cuenta" path="/cuentas" z="15Dmg8AtxWct+mxaEFfKBdGabTw=">
-        <field:input field="numeroCuenta" id="c_com_pagosonline_logica_Cuenta_numeroCuenta" required="true" validationMessageCode="field_invalid_integer" z="W/+Ax/ZDvkdWD0Hw8/v/NKnxj/U="/>
+        <field:input field="numeroCuenta" id="c_com_pagosonline_logica_Cuenta_numeroCuenta" min="3" required="true" validationMessageCode="field_invalid_integer" z="wL4qGkjURUsRPkBFDx3gfpDFzlA="/>
         <field:input field="saldo" id="c_com_pagosonline_logica_Cuenta_saldo" min="0" validationMessageCode="field_invalid_integer" z="x8kfdaMKIGShsAbF7AKPe8FUwjE="/>
         
     
     <field:simple field="movimientos" id="c_com_pagosonline_logica_Cuenta_movimientos" messageCode="entity_reference_not_managed" messageCodeAttribute="Movimiento" z="/CkTwPr/hNdNVHxTmIY+AWHN03c="/>
     
-    <field:select field="cliente" id="c_com_pagosonline_logica_Cuenta_cliente" itemValue="id" items="${clientes}" path="/clientes" z="UE0wfMTX+BO8iBfQCYfevQ0Qlq0="/>
+    <field:select field="cliente" id="c_com_pagosonline_logica_Cuenta_cliente" itemValue="id" items="${clientes}" path="/clientes" required="true" z="x4cZ91u0VFj33b9maQUteGxWveQ="/>
     </form:update>
 </div>

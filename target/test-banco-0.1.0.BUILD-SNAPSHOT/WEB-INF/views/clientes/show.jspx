@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
-    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
-    <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_com_pagosonline_logica_Cliente" object="${cliente}" path="/clientes" z="D/9jFWFH8/TktdcmNRThycDT+lE=">
-        <field:display field="nombre" id="s_com_pagosonline_logica_Cliente_nombre" object="${cliente}" z="LDsnrozhaWCWgJqkrm0DKHEzbXM="/>
-        <field:display field="direccion" id="s_com_pagosonline_logica_Cliente_direccion" object="${cliente}" z="1K5LtuYkGhmr4BuryV1uH8YMCEA="/>
-        <field:display field="telefono" id="s_com_pagosonline_logica_Cliente_telefono" object="${cliente}" z="isbdVS4nzCiDwJvRRhJDTbdPOzQ="/>
-    
-    <field:display field="cuentas" id="s_com_pagosonline_logica_Cliente_cuentas" object="${cliente}" z="sgRwa9K2yPDNSiatI5gznqkcEZo="/>
-    
-    </page:show>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_pagosonline_logica_Cliente" object="${cliente}"
+		path="/clientes" z="D/9jFWFH8/TktdcmNRThycDT+lE=">
+		<field:display field="nombre"
+			id="s_com_pagosonline_logica_Cliente_nombre" object="${cliente}"
+			z="LDsnrozhaWCWgJqkrm0DKHEzbXM=" />
+		<field:display field="direccion"
+			id="s_com_pagosonline_logica_Cliente_direccion" object="${cliente}"
+			z="1K5LtuYkGhmr4BuryV1uH8YMCEA=" />
+		<field:display field="telefono"
+			id="s_com_pagosonline_logica_Cliente_telefono" object="${cliente}"
+			z="isbdVS4nzCiDwJvRRhJDTbdPOzQ=" />
+
+		<field:display field="cuentas"
+			id="s_com_pagosonline_logica_Cliente_cuentas" object="${cliente}"
+			z="sgRwa9K2yPDNSiatI5gznqkcEZo=" />
+
+		<span> <spring:url
+				value="/cuentas/addCuenta?idCliente=${itemId}" var="addCliente" /> <a
+			href="${addCliente}"> <spring:message
+					code="com.pagosonline.logica.Cuenta_menu_new" /> </a> </span>
+
+
+	</page:show>
+
 </div>

@@ -167,12 +167,12 @@ public final class list_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_table_005fcolumn_005f2);
     _jspx_th_table_005fcolumn_005f2.setJspContext(_jspx_page_context);
     _jspx_th_table_005fcolumn_005f2.setParent(_jspx_parent);
-    // /WEB-INF/views/cuentas/list.jspx(9,125) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_table_005fcolumn_005f2.setZ("jycd853A1Az6thXmm4q2bg0acn4=");
-    // /WEB-INF/views/cuentas/list.jspx(9,125) name = property type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_table_005fcolumn_005f2.setProperty("cliente");
-    // /WEB-INF/views/cuentas/list.jspx(9,125) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_table_005fcolumn_005f2.setId("c_com_pagosonline_logica_Cuenta_cliente");
+    // /WEB-INF/views/cuentas/list.jspx(11,129) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_table_005fcolumn_005f2.setZ("beg3NEX4sExeZRRCiBsQOe/5uNs=");
+    // /WEB-INF/views/cuentas/list.jspx(11,129) name = property type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_table_005fcolumn_005f2.setProperty("movimientos");
+    // /WEB-INF/views/cuentas/list.jspx(11,129) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_table_005fcolumn_005f2.setId("c_com_pagosonline_logica_Cuenta_movimientos");
     _jspx_th_table_005fcolumn_005f2.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_table_005fcolumn_005f2);
     return false;
@@ -187,12 +187,12 @@ public final class list_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_table_005fcolumn_005f3);
     _jspx_th_table_005fcolumn_005f3.setJspContext(_jspx_page_context);
     _jspx_th_table_005fcolumn_005f3.setParent(_jspx_parent);
-    // /WEB-INF/views/cuentas/list.jspx(10,121) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_table_005fcolumn_005f3.setZ("v3SM4LIWzdGrGNdqcrApxtvP1lQ=");
-    // /WEB-INF/views/cuentas/list.jspx(10,121) name = property type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_table_005fcolumn_005f3.setProperty("cuentas");
-    // /WEB-INF/views/cuentas/list.jspx(10,121) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_table_005fcolumn_005f3.setId("c_com_pagosonline_logica_Cuenta_cuentas");
+    // /WEB-INF/views/cuentas/list.jspx(13,121) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_table_005fcolumn_005f3.setZ("jycd853A1Az6thXmm4q2bg0acn4=");
+    // /WEB-INF/views/cuentas/list.jspx(13,121) name = property type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_table_005fcolumn_005f3.setProperty("cliente");
+    // /WEB-INF/views/cuentas/list.jspx(13,121) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_table_005fcolumn_005f3.setId("c_com_pagosonline_logica_Cuenta_cliente");
     _jspx_th_table_005fcolumn_005f3.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_table_005fcolumn_005f3);
     return false;

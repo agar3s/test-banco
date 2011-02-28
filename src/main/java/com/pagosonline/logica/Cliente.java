@@ -32,4 +32,10 @@ public class Cliente {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "cliente")
     private Set<Cuenta> cuentas = new HashSet<Cuenta>();
 
+
+	public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(getNombre());
+        return sb.toString();
+    }
 }

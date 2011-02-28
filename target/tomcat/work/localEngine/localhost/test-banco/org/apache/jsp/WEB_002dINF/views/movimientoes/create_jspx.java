@@ -112,13 +112,17 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005finput_005f0);
     _jspx_th_field_005finput_005f0.setJspContext(_jspx_page_context);
     _jspx_th_field_005finput_005f0.setParent(_jspx_parent);
-    // /WEB-INF/views/movimientoes/create.jspx(6,163) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f0.setZ("8S+EbaJkX7LVZIAypcAQ627p7ns=");
-    // /WEB-INF/views/movimientoes/create.jspx(6,163) name = validationMessageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/movimientoes/create.jspx(6,187) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f0.setZ("4PPhoPlykqITXuRc+s+KX0tkwcY=");
+    // /WEB-INF/views/movimientoes/create.jspx(6,187) name = validationMessageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005finput_005f0.setValidationMessageCode("field_invalid_integer");
-    // /WEB-INF/views/movimientoes/create.jspx(6,163) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/movimientoes/create.jspx(6,187) name = required type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f0.setRequired(new Boolean(true));
+    // /WEB-INF/views/movimientoes/create.jspx(6,187) name = min type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f0.setMin("0");
+    // /WEB-INF/views/movimientoes/create.jspx(6,187) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005finput_005f0.setId("c_com_pagosonline_logica_Movimiento_valor");
-    // /WEB-INF/views/movimientoes/create.jspx(6,163) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/movimientoes/create.jspx(6,187) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005finput_005f0.setField("valor");
     _jspx_th_field_005finput_005f0.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005finput_005f0);

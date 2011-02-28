@@ -32,4 +32,31 @@ public class Cuenta {
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "cuenta")
     private Set<Movimiento> movimientos = new HashSet<Movimiento>();
+    
+    public Cuenta(){
+    	this.saldo=0L;
+    }
+    public Cuenta(Cliente cliente){
+    	this.cliente = cliente;
+    	this.saldo=0L;
+    }
+
+
+	public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("N°: ").append(getNumeroCuenta());
+        return sb.toString();
+    }
+	
+	public void aumentarSaldo(Long debito){
+		saldo+=debito;
+	}
+	
+	public boolean reducirSaldo(Long credito){
+		if(saldo-credito<0){
+			return false;
+		}
+		saldo-=credito;
+		return true;
+	}
 }

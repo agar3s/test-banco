@@ -18,6 +18,9 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     _jspx_dependants.add("/WEB-INF/tags/form/fields/display.tagx");
   }
 
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fspring_005fmessage_0026_005fcode_005fnobody;
+
   private javax.el.ExpressionFactory _el_expressionfactory;
   private org.apache.AnnotationProcessor _jsp_annotationprocessor;
 
@@ -26,11 +29,15 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
   }
 
   public void _jspInit() {
+    _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005fspring_005fmessage_0026_005fcode_005fnobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
     _el_expressionfactory = _jspxFactory.getJspApplicationContext(getServletConfig().getServletContext()).getExpressionFactory();
     _jsp_annotationprocessor = (org.apache.AnnotationProcessor) getServletConfig().getServletContext().getAttribute(org.apache.AnnotationProcessor.class.getName());
   }
 
   public void _jspDestroy() {
+    _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.release();
+    _005fjspx_005ftagPool_005fspring_005fmessage_0026_005fcode_005fnobody.release();
   }
 
   public void _jspService(HttpServletRequest request, HttpServletResponse response)
@@ -81,13 +88,13 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jsp.tag.web.form.show_tagx _jspx_th_page_005fshow_005f0 = new org.apache.jsp.tag.web.form.show_tagx();
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_page_005fshow_005f0);
     _jspx_th_page_005fshow_005f0.setJspContext(_jspx_page_context);
-    // /WEB-INF/views/cuentas/show.jspx(5,122) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(9,52) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_page_005fshow_005f0.setZ("8GGFZdfSy8wHlXycwR67Vq0uM1w=");
-    // /WEB-INF/views/cuentas/show.jspx(5,122) name = path type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(9,52) name = path type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_page_005fshow_005f0.setPath("/cuentas");
-    // /WEB-INF/views/cuentas/show.jspx(5,122) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(9,52) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_page_005fshow_005f0.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${cuenta}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/cuentas/show.jspx(5,122) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(9,52) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_page_005fshow_005f0.setId("ps_com_pagosonline_logica_Cuenta");
     _jspx_th_page_005fshow_005f0.setJspBody(new Helper( 0, _jspx_page_context, _jspx_th_page_005fshow_005f0, null));
     _jspx_th_page_005fshow_005f0.doTag();
@@ -104,13 +111,13 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f0);
     _jspx_th_field_005fdisplay_005f0.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f0.setParent(_jspx_parent);
-    // /WEB-INF/views/cuentas/show.jspx(6,148) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(13,39) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f0.setZ("B9zJdRDtVvcSfXdtYfKvp2rYu1U=");
-    // /WEB-INF/views/cuentas/show.jspx(6,148) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(13,39) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f0.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${cuenta}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/cuentas/show.jspx(6,148) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(13,39) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f0.setId("s_com_pagosonline_logica_Cuenta_numeroCuenta");
-    // /WEB-INF/views/cuentas/show.jspx(6,148) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(13,39) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f0.setField("numeroCuenta");
     _jspx_th_field_005fdisplay_005f0.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f0);
@@ -126,13 +133,13 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f1);
     _jspx_th_field_005fdisplay_005f1.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f1.setParent(_jspx_parent);
-    // /WEB-INF/views/cuentas/show.jspx(7,134) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(16,39) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f1.setZ("5Q4Lg7BfG69CdHxSCDkMttGmNII=");
-    // /WEB-INF/views/cuentas/show.jspx(7,134) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(16,39) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f1.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${cuenta}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/cuentas/show.jspx(7,134) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(16,39) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f1.setId("s_com_pagosonline_logica_Cuenta_saldo");
-    // /WEB-INF/views/cuentas/show.jspx(7,134) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(16,39) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f1.setField("saldo");
     _jspx_th_field_005fdisplay_005f1.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f1);
@@ -148,13 +155,13 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f2);
     _jspx_th_field_005fdisplay_005f2.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f2.setParent(_jspx_parent);
-    // /WEB-INF/views/cuentas/show.jspx(10,142) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(20,39) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f2.setZ("cHm9x4Smhla+yr6gVQJjJkKHINU=");
-    // /WEB-INF/views/cuentas/show.jspx(10,142) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(20,39) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f2.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${cuenta}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/cuentas/show.jspx(10,142) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(20,39) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f2.setId("s_com_pagosonline_logica_Cuenta_movimientos");
-    // /WEB-INF/views/cuentas/show.jspx(10,142) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(20,39) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f2.setField("movimientos");
     _jspx_th_field_005fdisplay_005f2.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f2);
@@ -170,16 +177,128 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f3);
     _jspx_th_field_005fdisplay_005f3.setJspContext(_jspx_page_context);
     _jspx_th_field_005fdisplay_005f3.setParent(_jspx_parent);
-    // /WEB-INF/views/cuentas/show.jspx(12,134) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(23,39) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f3.setZ("OvCIUML8TC7HOWjRIsuc99Ixhqg=");
-    // /WEB-INF/views/cuentas/show.jspx(12,134) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(23,39) name = object type = java.lang.Object reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f3.setObject((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${cuenta}", java.lang.Object.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/cuentas/show.jspx(12,134) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(23,39) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f3.setId("s_com_pagosonline_logica_Cuenta_cliente");
-    // /WEB-INF/views/cuentas/show.jspx(12,134) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/cuentas/show.jspx(23,39) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005fdisplay_005f3.setField("cliente");
     _jspx_th_field_005fdisplay_005f3.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdisplay_005f3);
+    return false;
+  }
+
+  private boolean _jspx_meth_spring_005furl_005f0(javax.servlet.jsp.tagext.JspTag _jspx_parent, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  spring:url
+    org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_005furl_005f0 = (org.springframework.web.servlet.tags.UrlTag) _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.get(org.springframework.web.servlet.tags.UrlTag.class);
+    _jspx_th_spring_005furl_005f0.setPageContext(_jspx_page_context);
+    _jspx_th_spring_005furl_005f0.setParent(new javax.servlet.jsp.tagext.TagAdapter((javax.servlet.jsp.tagext.SimpleTag) _jspx_parent));
+    // /WEB-INF/views/cuentas/show.jspx(26,76) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_spring_005furl_005f0.setVar("debito");
+    // /WEB-INF/views/cuentas/show.jspx(26,76) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_spring_005furl_005f0.setValue((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("/movimientoes/realizarDebito?idCuenta=${itemId}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+    int[] _jspx_push_body_count_spring_005furl_005f0 = new int[] { 0 };
+    try {
+      int _jspx_eval_spring_005furl_005f0 = _jspx_th_spring_005furl_005f0.doStartTag();
+      if (_jspx_th_spring_005furl_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+        throw new SkipPageException();
+      }
+    } catch (Throwable _jspx_exception) {
+      while (_jspx_push_body_count_spring_005furl_005f0[0]-- > 0)
+        out = _jspx_page_context.popBody();
+      _jspx_th_spring_005furl_005f0.doCatch(_jspx_exception);
+    } finally {
+      _jspx_th_spring_005furl_005f0.doFinally();
+      _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.reuse(_jspx_th_spring_005furl_005f0);
+    }
+    return false;
+  }
+
+  private boolean _jspx_meth_spring_005fmessage_005f0(javax.servlet.jsp.tagext.JspTag _jspx_parent, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  spring:message
+    org.springframework.web.servlet.tags.MessageTag _jspx_th_spring_005fmessage_005f0 = (org.springframework.web.servlet.tags.MessageTag) _005fjspx_005ftagPool_005fspring_005fmessage_0026_005fcode_005fnobody.get(org.springframework.web.servlet.tags.MessageTag.class);
+    _jspx_th_spring_005fmessage_005f0.setPageContext(_jspx_page_context);
+    _jspx_th_spring_005fmessage_005f0.setParent(new javax.servlet.jsp.tagext.TagAdapter((javax.servlet.jsp.tagext.SimpleTag) _jspx_parent));
+    // /WEB-INF/views/cuentas/show.jspx(28,56) name = code type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_spring_005fmessage_005f0.setCode("com.pagosonline.logica.movimiento_debito");
+    int[] _jspx_push_body_count_spring_005fmessage_005f0 = new int[] { 0 };
+    try {
+      int _jspx_eval_spring_005fmessage_005f0 = _jspx_th_spring_005fmessage_005f0.doStartTag();
+      if (_jspx_th_spring_005fmessage_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+        throw new SkipPageException();
+      }
+    } catch (Throwable _jspx_exception) {
+      while (_jspx_push_body_count_spring_005fmessage_005f0[0]-- > 0)
+        out = _jspx_page_context.popBody();
+      _jspx_th_spring_005fmessage_005f0.doCatch(_jspx_exception);
+    } finally {
+      _jspx_th_spring_005fmessage_005f0.doFinally();
+      _005fjspx_005ftagPool_005fspring_005fmessage_0026_005fcode_005fnobody.reuse(_jspx_th_spring_005fmessage_005f0);
+    }
+    return false;
+  }
+
+  private boolean _jspx_meth_spring_005furl_005f1(javax.servlet.jsp.tagext.JspTag _jspx_parent, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  spring:url
+    org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_005furl_005f1 = (org.springframework.web.servlet.tags.UrlTag) _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.get(org.springframework.web.servlet.tags.UrlTag.class);
+    _jspx_th_spring_005furl_005f1.setPageContext(_jspx_page_context);
+    _jspx_th_spring_005furl_005f1.setParent(new javax.servlet.jsp.tagext.TagAdapter((javax.servlet.jsp.tagext.SimpleTag) _jspx_parent));
+    // /WEB-INF/views/cuentas/show.jspx(33,21) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_spring_005furl_005f1.setVar("credito");
+    // /WEB-INF/views/cuentas/show.jspx(33,21) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_spring_005furl_005f1.setValue((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("/movimientoes/realizarCredito?idCuenta=${itemId}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+    int[] _jspx_push_body_count_spring_005furl_005f1 = new int[] { 0 };
+    try {
+      int _jspx_eval_spring_005furl_005f1 = _jspx_th_spring_005furl_005f1.doStartTag();
+      if (_jspx_th_spring_005furl_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+        throw new SkipPageException();
+      }
+    } catch (Throwable _jspx_exception) {
+      while (_jspx_push_body_count_spring_005furl_005f1[0]-- > 0)
+        out = _jspx_page_context.popBody();
+      _jspx_th_spring_005furl_005f1.doCatch(_jspx_exception);
+    } finally {
+      _jspx_th_spring_005furl_005f1.doFinally();
+      _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.reuse(_jspx_th_spring_005furl_005f1);
+    }
+    return false;
+  }
+
+  private boolean _jspx_meth_spring_005fmessage_005f1(javax.servlet.jsp.tagext.JspTag _jspx_parent, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  spring:message
+    org.springframework.web.servlet.tags.MessageTag _jspx_th_spring_005fmessage_005f1 = (org.springframework.web.servlet.tags.MessageTag) _005fjspx_005ftagPool_005fspring_005fmessage_0026_005fcode_005fnobody.get(org.springframework.web.servlet.tags.MessageTag.class);
+    _jspx_th_spring_005fmessage_005f1.setPageContext(_jspx_page_context);
+    _jspx_th_spring_005fmessage_005f1.setParent(new javax.servlet.jsp.tagext.TagAdapter((javax.servlet.jsp.tagext.SimpleTag) _jspx_parent));
+    // /WEB-INF/views/cuentas/show.jspx(34,57) name = code type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_spring_005fmessage_005f1.setCode("com.pagosonline.logica.movimiento_credito");
+    int[] _jspx_push_body_count_spring_005fmessage_005f1 = new int[] { 0 };
+    try {
+      int _jspx_eval_spring_005fmessage_005f1 = _jspx_th_spring_005fmessage_005f1.doStartTag();
+      if (_jspx_th_spring_005fmessage_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+        throw new SkipPageException();
+      }
+    } catch (Throwable _jspx_exception) {
+      while (_jspx_push_body_count_spring_005fmessage_005f1[0]-- > 0)
+        out = _jspx_page_context.popBody();
+      _jspx_th_spring_005fmessage_005f1.doCatch(_jspx_exception);
+    } finally {
+      _jspx_th_spring_005fmessage_005f1.doFinally();
+      _005fjspx_005ftagPool_005fspring_005fmessage_0026_005fcode_005fnobody.reuse(_jspx_th_spring_005fmessage_005f1);
+    }
     return false;
   }
 
@@ -205,6 +324,23 @@ public final class show_jspx extends org.apache.jasper.runtime.HttpJspBase
         return true;
       if (_jspx_meth_field_005fdisplay_005f3(_jspx_parent, _jspx_page_context))
         return true;
+      out.write("<span>");
+      if (_jspx_meth_spring_005furl_005f0(_jspx_parent, _jspx_page_context))
+        return true;
+      out.write("<a href=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${debito}", java.lang.String.class, (PageContext)_jspx_page_context, null, false) + "\">");
+      if (_jspx_meth_spring_005fmessage_005f0(_jspx_parent, _jspx_page_context))
+        return true;
+      out.write("</a>");
+      out.write("</span>");
+      out.write("<br/>");
+      out.write("<span>");
+      if (_jspx_meth_spring_005furl_005f1(_jspx_parent, _jspx_page_context))
+        return true;
+      out.write("<a href=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${credito}", java.lang.String.class, (PageContext)_jspx_page_context, null, false) + "\">");
+      if (_jspx_meth_spring_005fmessage_005f1(_jspx_parent, _jspx_page_context))
+        return true;
+      out.write("</a>");
+      out.write("</span>");
       return false;
     }
     public void invoke( java.io.Writer writer )
