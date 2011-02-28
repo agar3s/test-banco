@@ -22,4 +22,4 @@ Para eliminar una cuenta del sistema, seleccione la opción _"Listar Cuentas"_ u
 
 _tenga en cuenta que la eliminación de una cuenta, eliminara también toda la información de movimientos asociadas a esta_
 
-[manualUsuario]
+[ManualUsuario]
