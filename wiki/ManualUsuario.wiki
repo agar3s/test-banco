@@ -1,14 +1,11 @@
 #labels manual
 #Manual sencillo tipo wiki.
 
-= Manual del usuario =
+= Manual del usuario para el test Banco=
 
-Add your content here.
+Este proyecto permite la creación de Clientes de cuentas bancarias, y registro de movimientos créditos y débitos.
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Clientes
+Cuentas
+Movimientos
+|
