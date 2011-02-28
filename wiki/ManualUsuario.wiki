@@ -6,7 +6,9 @@
 Este proyecto permite la creación de Clientes de cuentas bancarias, y registro de movimientos créditos y débitos.
 
  * [Clientes]
- * Cuentas
- * Movimientos
+ * [Cuentas]
+ * [Movimientos]
 
 la dirección de acceso al proyecto es http://localhost:8080/test-banco/
+
+http://test-banco.googlecode.com/svn/trunk/diagrama.png
