@@ -5,7 +5,8 @@
 
 Este proyecto permite la creación de Clientes de cuentas bancarias, y registro de movimientos créditos y débitos.
 
-Clientes
-Cuentas
-Movimientos
-|
+* Clientes
+* Cuentas
+* Movimientos
+
+la dirección de acceso al proyecto es http://localhost:8080/test-banco/
