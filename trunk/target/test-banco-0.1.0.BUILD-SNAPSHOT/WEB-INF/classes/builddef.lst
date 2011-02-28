@@ -10,7 +10,6 @@
 -d
 /home/giovanny/workspace-sts/test-banco/target/classes
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/Cuenta.java
-/home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/web/MovimientoController_Roo_Controller.aj
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/Cuenta_Roo_Entity.aj
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/web/ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/Cliente_Roo_Entity.aj
@@ -25,11 +24,11 @@
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/Movimiento_Roo_Entity.aj
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/Movimiento_Roo_JavaBean.aj
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/Cliente_Roo_Configurable.aj
-/home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/Cliente_Roo_ToString.aj
+/home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/Extracto.java
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/TipoMovimiento.java
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/web/MovimientoController.java
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/web/CuentaController_Roo_Controller.aj
+/home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/web/TransaccionController.java
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/web/ApplicationConversionServiceFactoryBean.java
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/web/ClienteController_Roo_Controller.aj
-/home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/Cuenta_Roo_ToString.aj
 /home/giovanny/workspace-sts/test-banco/src/main/java/com/pagosonline/logica/Cliente_Roo_JavaBean.aj

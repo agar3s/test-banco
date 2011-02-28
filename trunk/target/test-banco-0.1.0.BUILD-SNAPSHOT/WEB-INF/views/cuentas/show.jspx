@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
-    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
-    <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_com_pagosonline_logica_Cuenta" object="${cuenta}" path="/cuentas" z="8GGFZdfSy8wHlXycwR67Vq0uM1w=">
-        <field:display field="numeroCuenta" id="s_com_pagosonline_logica_Cuenta_numeroCuenta" object="${cuenta}" z="B9zJdRDtVvcSfXdtYfKvp2rYu1U="/>
-        <field:display field="saldo" id="s_com_pagosonline_logica_Cuenta_saldo" object="${cuenta}" z="5Q4Lg7BfG69CdHxSCDkMttGmNII="/>
-        
-    
-    <field:display field="movimientos" id="s_com_pagosonline_logica_Cuenta_movimientos" object="${cuenta}" z="cHm9x4Smhla+yr6gVQJjJkKHINU="/>
-    
-    <field:display field="cliente" id="s_com_pagosonline_logica_Cuenta_cliente" object="${cuenta}" z="OvCIUML8TC7HOWjRIsuc99Ixhqg="/>
-    </page:show>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_pagosonline_logica_Cuenta" object="${cuenta}"
+		path="/cuentas" z="8GGFZdfSy8wHlXycwR67Vq0uM1w=">
+		
+		<field:display field="numeroCuenta"
+			id="s_com_pagosonline_logica_Cuenta_numeroCuenta" object="${cuenta}"
+			z="B9zJdRDtVvcSfXdtYfKvp2rYu1U=" />
+		<field:display field="saldo"
+			id="s_com_pagosonline_logica_Cuenta_saldo" object="${cuenta}"
+			z="5Q4Lg7BfG69CdHxSCDkMttGmNII=" />
+
+		<field:display field="movimientos"
+			id="s_com_pagosonline_logica_Cuenta_movimientos" object="${cuenta}"
+			z="cHm9x4Smhla+yr6gVQJjJkKHINU=" />
+		<field:display field="cliente"
+			id="s_com_pagosonline_logica_Cuenta_cliente" object="${cuenta}"
+			z="OvCIUML8TC7HOWjRIsuc99Ixhqg=" />
+
+		<span> <spring:url
+				value="/movimientoes/realizarDebito?idCuenta=${itemId}" var="debito" />
+			<a href="${debito}"> <spring:message
+					code="com.pagosonline.logica.movimiento_debito" /> </a> 
+					</span>
+		<br></br>
+		<span> <spring:url
+				value="/movimientoes/realizarCredito?idCuenta=${itemId}"
+				var="credito" /> <a href="${credito}"> <spring:message
+					code="com.pagosonline.logica.movimiento_credito" /> </a> </span>
+	</page:show>
 </div>

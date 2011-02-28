@@ -2,20 +2,17 @@
 <aspects>
 <aspect name="com.pagosonline.logica.Cuenta_Roo_Entity"/>
 <aspect name="com.pagosonline.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
-<aspect name="com.pagosonline.logica.Cuenta_Roo_ToString"/>
-<aspect name="com.pagosonline.logica.Cliente_Roo_ToString"/>
 <aspect name="com.pagosonline.logica.Cliente_Roo_Configurable"/>
 <aspect name="com.pagosonline.web.CuentaController_Roo_Controller"/>
 <aspect name="com.pagosonline.logica.Movimiento_Roo_JavaBean"/>
-<aspect name="com.pagosonline.web.ClienteController_Roo_Controller"/>
 <aspect name="com.pagosonline.logica.Cuenta_Roo_JavaBean"/>
 <aspect name="com.pagosonline.logica.Movimiento_Roo_Entity"/>
+<aspect name="com.pagosonline.web.ClienteController_Roo_Controller"/>
 <aspect name="com.pagosonline.logica.Cuenta_Roo_Configurable"/>
 <aspect name="com.pagosonline.logica.Cliente_Roo_JavaBean"/>
 <aspect name="com.pagosonline.logica.Movimiento_Roo_ToString"/>
 <aspect name="com.pagosonline.logica.Movimiento_Roo_Configurable"/>
 <aspect name="com.pagosonline.logica.Cliente_Roo_Entity"/>
-<aspect name="com.pagosonline.web.MovimientoController_Roo_Controller"/>
 </aspects>
 </aspectj>
 

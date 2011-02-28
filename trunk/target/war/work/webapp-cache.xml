@@ -34,6 +34,8 @@
           <string>WEB-INF/tags/form/update.tagx</string>
           <string>WEB-INF/spring/webmvc-config.xml</string>
           <string>WEB-INF/views/header.jspx</string>
+          <string>WEB-INF/views/transaccion/views.xml</string>
+          <string>WEB-INF/views/transaccion/index.jspx</string>
           <string>WEB-INF/views/footer.jspx</string>
           <string>WEB-INF/views/views.xml</string>
           <string>WEB-INF/views/resourceNotFound.jspx</string>
@@ -52,10 +54,14 @@
           <string>WEB-INF/views/uncaughtException.jspx</string>
           <string>WEB-INF/views/index-template.jspx</string>
           <string>WEB-INF/views/dataAccessFailure.jspx</string>
+          <string>WEB-INF/views/movimientoes/credito.jspx</string>
+          <string>WEB-INF/views/movimientoes/extractoForm.jspx</string>
           <string>WEB-INF/views/movimientoes/views.xml</string>
           <string>WEB-INF/views/movimientoes/show.jspx</string>
           <string>WEB-INF/views/movimientoes/list.jspx</string>
+          <string>WEB-INF/views/movimientoes/debito.jspx</string>
           <string>WEB-INF/views/movimientoes/update.jspx</string>
+          <string>WEB-INF/views/movimientoes/extractoReport.jspx</string>
           <string>WEB-INF/views/movimientoes/create.jspx</string>
           <string>WEB-INF/web.xml</string>
           <string>WEB-INF/i18n/application.properties</string>
@@ -84,20 +90,20 @@
           <string>WEB-INF/classes/com/pagosonline/logica/Cuenta.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Cuenta_Roo_Configurable.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Cliente_Roo_JavaBean.class</string>
-          <string>WEB-INF/classes/com/pagosonline/logica/Cuenta_Roo_ToString.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Cliente_Roo_Configurable.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Cuenta_Roo_JavaBean.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Movimiento_Roo_ToString.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Cliente.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/TipoMovimiento.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Movimiento.class</string>
-          <string>WEB-INF/classes/com/pagosonline/logica/Cliente_Roo_ToString.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Movimiento_Roo_JavaBean.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Cuenta_Roo_Entity.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Movimiento_Roo_Configurable.class</string>
+          <string>WEB-INF/classes/com/pagosonline/logica/Extracto.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Movimiento_Roo_Entity.class</string>
           <string>WEB-INF/classes/com/pagosonline/logica/Cliente_Roo_Entity.class</string>
           <string>WEB-INF/classes/com/pagosonline/web/ApplicationConversionServiceFactoryBean$1.class</string>
+          <string>WEB-INF/classes/com/pagosonline/web/TransaccionController.class</string>
           <string>WEB-INF/classes/com/pagosonline/web/ApplicationConversionServiceFactoryBean$3.class</string>
           <string>WEB-INF/classes/com/pagosonline/web/ApplicationConversionServiceFactoryBean.class</string>
           <string>WEB-INF/classes/com/pagosonline/web/ClienteController_Roo_Controller.class</string>
@@ -106,7 +112,6 @@
           <string>WEB-INF/classes/com/pagosonline/web/MovimientoController.class</string>
           <string>WEB-INF/classes/com/pagosonline/web/CuentaController_Roo_Controller.class</string>
           <string>WEB-INF/classes/com/pagosonline/web/ApplicationConversionServiceFactoryBean_Roo_ConversionService.class</string>
-          <string>WEB-INF/classes/com/pagosonline/web/MovimientoController_Roo_Controller.class</string>
           <string>WEB-INF/classes/com/pagosonline/web/ApplicationConversionServiceFactoryBean$2.class</string>
           <string>WEB-INF/classes/log4j.properties</string>
           <string>WEB-INF/classes/META-INF/spring/database.properties</string>

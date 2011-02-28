@@ -23,7 +23,11 @@ privileged aspect MovimientoDataOnDemand_Roo_DataOnDemand {
     
     public Movimiento MovimientoDataOnDemand.getNewTransientMovimiento(int index) {
         com.pagosonline.logica.Movimiento obj = new com.pagosonline.logica.Movimiento();
-        obj.setValor(new Integer(index).longValue());
+        java.lang.Long valor = new Integer(index).longValue();
+        if (valor < 0) {
+            valor = 0L;
+        }
+        obj.setValor(valor);
         obj.setTipo(com.pagosonline.logica.TipoMovimiento.class.getEnumConstants()[0]);
         obj.setCuenta(cuentaDataOnDemand.getRandomCuenta());
         obj.setFecha(new java.util.GregorianCalendar(java.util.Calendar.getInstance().get(java.util.Calendar.YEAR), java.util.Calendar.getInstance().get(java.util.Calendar.MONTH), java.util.Calendar.getInstance().get(java.util.Calendar.DAY_OF_MONTH), java.util.Calendar.getInstance().get(java.util.Calendar.HOUR_OF_DAY), java.util.Calendar.getInstance().get(java.util.Calendar.MINUTE), java.util.Calendar.getInstance().get(java.util.Calendar.SECOND) + new Double(Math.random() * 1000).intValue()).getTime());

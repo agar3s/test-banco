@@ -58,3 +58,18 @@ perform package
 perform package
 field reference --fieldName cliente --type ~.logica.Cliente
 perform package
+hint
+hint controller
+hint controllers
+hint
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-02-27 18:02:01
+perform package
+hint controller
+hint controllers
+controller class --class ~.web.Transaccion --preferredMapping /transaccion
+perform package
+perform package
+perform package
+perform package
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-02-27 22:31:51
+perform package
