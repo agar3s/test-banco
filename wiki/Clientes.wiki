@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Operaciones básicas que se pueden realizar con los clientes.
 
 = Clientes =
 
@@ -17,4 +17,8 @@ Una vez finalice por favor seleccione la opción *Guardar*
 Para actualizar la información de un cliente, seleccione la opción _"Listar Clientes"_ ubique el cliente que desea actualizar y haga click sobre el icono del lápiz que se encuentra a su derecha, ahí podrá actualizar la información en un formulario de forma idéntica al de la creación.
 
 == Eliminación de clientes ==
-Para eliminar un cliente del sistema, seleccione la opción _"Listar Clientes"_ seleccione el cliente que desea actualizar y haga click sobre el icono de la X que se encuentra mas a la derecha, el sistema le pedirá confirmación, si esta seguro de la eliminación seleccione aceptar.
+Para eliminar un cliente del sistema, seleccione la opción _"Listar Clientes"_ ubique el cliente que desea eliminar y haga click sobre el icono de la X que se encuentra mas a la derecha, el sistema le pedirá confirmación, si esta seguro de la eliminación seleccione aceptar.
+
+_eliminar un cliente, eliminará también todas sus dependencias con cuentas y movimientos asociados_
+
+[ManualUsuario]
