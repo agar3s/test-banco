@@ -1,0 +1,12 @@
+#summary One-sentence summary of this page.
+
+= Clientes =
+
+Es necesario crear un cliente, para acceder a los servicios bancarios.
+para crear un cliente diríjase a la opción _"Crear nuevo cliente"_ debe llenar todos los campos:
+
+ * *Nombre*: nombres del cliente 
+ * *Dirección*: la dirección de residencia o contacto
+ * *Teléfono*: un teléfono de contacto
+
+Una vez finalice por favor seleccione la opción *Guardar*
