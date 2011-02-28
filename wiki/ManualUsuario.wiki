@@ -1,5 +1,5 @@
 #labels manual
-#Manual sencillo tipo wiki.
+#Summary manual sencillo tipo wiki.
 
 = Manual del usuario para el test Banco=
 
@@ -8,6 +8,7 @@ Este proyecto permite la creación de Clientes de cuentas bancarias, y registro 
  * [Clientes]
  * [Cuentas]
  * [Movimientos]
+ * [Extracto]
 
 la dirección de acceso al proyecto es http://localhost:8080/test-banco/
 
